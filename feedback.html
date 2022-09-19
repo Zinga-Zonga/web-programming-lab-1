@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Обратная связь</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;
+  1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container content">
+	<header id="header" class="header">
+		<div class="header__logo">
+			<img src="img/logo.svg" alt="Logo" href="index.html" class="logo"></src>
+		</div>
+
+		<nav class="navbar">
+			<ul class="navbar__items">
+				<li class="navbar__item">
+					<a href="index.html" class="navbar__item select-animation">Главная</a>
+				</li>
+				<li class="navbar__item">
+					<a href="history.html" class="navbar__item select-animation">История города</a>
+				</li>
+				<li class="navbar__item">
+					<a href="infrastructure.html" class="navbar__item select-animation">Инфраструктура</a>
+				</li>
+				<li class="navbar__item">
+					<a href="culture.html" class="navbar__item select-animation">Культура и искусство</a>
+				</li>
+				<li class="navbar__item">
+					<a href="feedback.html" class="navbar__item select-animation">Связь с администрацией</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<section class="section section-1">
+		<div class="container">
+			<div class="greeting">
+				<h1>Связь с администрацией</h1>
+			</div>
+			<form action="mailto:linkolnace2@gmail.com" class="feedback-form">
+				<div>
+					<label>Имя <span>*</span></label>
+					<input type='text' name='username' id="username" required></div>
+				<div>
+					<label>Email <span>*</span></label>
+					<input type='text' name='usermail' id="usermail" required></div>
+				<div>
+					<label>Сообщение</label>
+					<textarea type='text' name='question' id="question">
+					</textarea>
+				</div>
+				<input class="form-button" type='submit' value='Послать заявку'>
+			</form>
+		</div>
+	</section>
+</div>
+<footer id="footer" class="footer">
+	<div class="container">
+		<div class="footer-booter">
+			<div class="networks">
+				<div class="networks__item">
+					<a href="https://www.instagram.com/p/CX8FmkptDY8/?igshid=YzA2ZDJiZGQ=" class="footer-nav__logo">
+						<img src="img/inst.svg" alt="Instagram">
+						Instagram
+					</a>
+				</div>
+				<div class="networks__item">
+					<a href="https://art.mau.ru/" class="footer-nav__logo">
+						<img src="img/catjopka.svg" alt="Jopka">
+						uinjj
+					</a>
+				</div>
+
+				<div class="networks__item">
+					<a href="https://vk.com/bipbupvipvup" class="footer-nav__logo">
+						<img src="img/vk.svg" alt="VK">
+						VK
+					</a>
+				</div>
+				<div class="networks__item">
+					<a href="https://t.me/@LinkolnAce" class="footer-nav__logo">
+						<img src="img/telegram.svg" alt="Telegram">
+						Telegram
+					</a>
+				</div>
+			</div>
+			<div class="copyrights-block">
+				<blockquote class="footer-quote">
+					<q>
+						Для тех, кто в Донбассе,
+						даже, когда берут паузу орудия<br>
+						продолжается тяжеленная реальность.
+						Рана глубока и кровоточит<br>
+					</q>
+					<cite>
+						Сергей Шаргунов
+					</cite>
+				</blockquote>
+				<div class="copyright">
+					Site made by Danil Pasechnik IVT-1
+				</div>
+			</div>
+		</div>
+
+	</div>
+</footer>
+</body>
+</html>

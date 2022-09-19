@@ -1,0 +1,404 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 900;
+    color: #863c3c;
+    font-size: 46px;
+
+}
+
+html {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    background: #1A1A1D;
+    color: #dacfcf;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.content {
+    min-height: calc(100vh - 80px);
+}
+.header {
+    padding: 10px 0;
+    height: 100px;
+    width: 80%;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+.logo {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.navbar__item {
+    text-decoration: none;
+    text-align: center;
+    color: #dacfcf;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 5px 5px 5px 5px;
+}
+.select-animation:hover{
+    color: #c35353;
+    text-decoration: underline;
+    transition: 0.7s;
+
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+.section-1 {
+    margin-bottom: 5vh;
+}
+
+.preview-video{
+    text-align: center;
+}
+.gorlovka-video {
+    object-fit: cover;
+    width: 95%;
+}
+
+h1 {
+    font-weight: 900;
+    color: #863c3c;
+    font-size: 46px;
+}
+
+.news {
+    width: 100%;
+}
+
+.greeting {
+    padding: 20px;
+    text-align: center;
+    margin: 5px;
+}
+
+.news__item {
+    width: 100%;
+    height: 265px;
+    display: flex;
+    padding: 13px 0;
+    object-fit: cover;
+}
+
+.news__item__image {
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.news__item__image img {
+    height: 100%;
+    width: 100%;
+}
+.title {
+    height: 3em;
+    overflow: hidden;
+}
+
+.news h2 {
+    margin: 20px 20px 20px 0px;
+}
+
+.news__content {
+    padding: 0px 0px 0px 3vh;
+    width: 50%;
+    height: 100%;
+    text-overflow: ellipsis;
+}
+
+.news__content a {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 20px;
+    color: #dacfcf;
+    height: 15%;
+    width: 100%;
+}
+
+.news__item__text {
+    overflow: hidden;
+    height: 75%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.news__item__date {
+    place-content: flex-end;
+    color: #4b4b61;
+    width: 100%;
+    height: 11%;
+}
+
+.footer {
+    width: 100vw;
+    background: #dacfcf;
+    margin: 0 auto;
+    color: #4b4b61;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    min-height: 80px;
+
+
+}
+.footer-booter {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.networks {
+    width: 60%;
+    min-height: 80px;
+
+}
+.networks__item {
+    padding: 10px 10px 10px 0px;
+}
+.networks__item a{
+    text-decoration: none;
+    color: #4b4b61;
+}
+.networks__item img{
+    width: 35px;
+    height: 35px;
+}
+.copyrights-block {
+    width: 40%;
+    min-height: 80px;
+
+}
+.footer-quote {
+    text-align: center;
+    font-size: 16px;
+    height: 75%;
+}
+.copyright {
+    font-size: 16px;
+    text-align: center;
+}
+/*<---- History Page -------->*/
+
+.table {
+    width: 100%;
+}
+.table tr:not(:first-child):hover {
+    background: #4b4b55;
+}
+.table tr td:nth-child(1) {
+    text-align: center;
+}
+.table tr td:nth-child(2) {
+    text-align: justify;
+}
+.table-headers:first-child{
+    width: 20%;
+    background: #333354;
+    text-align: center;
+}
+.table-headers:last-child{
+    width: 80%;
+}
+/* Infrastructure */
+
+.city-info__map ul {
+    display: block;
+    list-style-type: square;
+}
+.city-info__map p {
+    align: left;
+}
+.gorlovka-map {
+    float: left;
+    max-width: 30%;
+    padding: 30px;
+}
+.city-info__city-separation {
+    min-height: 50vh;
+    margin: 15px 0px;
+}
+.city-info__city-separation ul {
+    display: block;
+    padding: 5px;
+}
+.city-info__city-separation ul li {
+
+    padding: 5px;
+}
+.districts {
+    float: right;
+    max-width: 25%;
+    padding: 30px;
+}
+.kalininsky {
+    vertical-align: top;
+    border: 0px solid #cc00ff;
+    background: #cc00ff;
+    text-align: center;
+}
+.nikitovsky {
+    vertical-align: top;
+    border: 0px solid #33cc00;
+    background: #33cc00;
+    text-align: center;
+}
+.central-district {
+    vertical-align: top;
+    border: 0px solid #ff0033;
+    background: #ff0033;
+    text-align: center;
+}
+
+.download-file-img {
+    height: 2em;
+}
+.city-info__transport {
+    margin: 5px 0;
+    padding: 20px 0;
+}
+
+/*Culture Page*/
+
+.monuments {
+    width: 100%;
+    display: flex;
+    margin: 8px 0;
+    flex-direction: row;
+}
+.monuments:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.monument__img {
+    width: 25%;
+}
+.monument__img img {
+    width: 100%;
+}
+
+.monument__content {
+    width: 75%;
+    padding: 0px 5px;
+}
+.monuments p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+/*Last Page Form*/
+
+.feedback-form {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.feedback-form div{
+    padding: 15px 0;
+}
+.form-button{
+    box-sizing: border-box;
+    width: 100%;
+}
+.feedback-form label,.form-zvonok input{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.feedback-form label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.feedback-form input{
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+.feedback-form label span{
+    color: red;
+}
+.feedback-form .form-button{
+    padding: 15px;
+    margin-top: 10px;
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    background-color: #009b97;
+    cursor: pointer;
+    border: 3px #009b97 solid;
+    border-radius: 5px;
+}
+.feedback-form .form-button:hover{
+    color: #009b97;
+    background-color: #fff;
+}
+
+#question {
+    width: 92%;
+    height: 5em;
+    padding: 15px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    resize: none;
+}
+#usermail {
+    width: 92%;
+}
+#username {
+    width: 92%;
+
+}
+input[type="text"] {
+    resize: both;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
